@@ -1,0 +1,30 @@
+{
+  "valid": {
+    "name": "Lucas Rezende",
+    "email": "lucas@biblioteca.com",
+    "phone": "31231231231",
+    "password": "admin123",
+    "confirmPassword": "admin123",
+    "terms": true
+  },
+  "invalidPassword": {
+    "name": "Lucas Rezende",
+    "email": "lucas@biblioteca.com",
+    "phone": "31231231231",
+    "password": "admin123",
+    "confirmPassword": "admin1234",
+    "terms": true
+  },
+  "invalidTerms": {
+    "name": "Lucas Rezende",
+    "email": "lucas@biblioteca.com",
+    "phone": "31231231231",
+    "password": "admin123",
+    "confirmPassword": "admin123",
+    "terms": false
+  },
+  "emailsInvalid": {
+    "email": null,
+    "password": "senhaErrada"
+  }
+}

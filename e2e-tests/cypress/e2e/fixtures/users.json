@@ -1,0 +1,23 @@
+{
+  "valid": {
+    "email": "admin@biblioteca.com",
+    "password": "admin123"
+  },
+  "validEmail": {
+    "email": "Admin@biblioteca.com",
+    "password": "admin123"
+  },
+  "invalidEmail": {
+    "email": "nao-existe@teste.com",
+    "password": "admin123"
+  },
+  "invalidPassword": {
+    "email": "admin@biblioteca.com",
+    "password": "senhaErrada"
+  },
+   "emailsInvalid": {
+    "email": null,
+    "password": "senhaErrada"
+  }
+  
+}
