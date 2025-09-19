@@ -1,7 +1,6 @@
 {
   "devDependencies": {
+    "better-sqlite3": "^12.2.0",
     "cypress": "^15.2.0"
-
   }
- 
 }
