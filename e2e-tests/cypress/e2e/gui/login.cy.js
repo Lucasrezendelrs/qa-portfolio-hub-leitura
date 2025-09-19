@@ -2,12 +2,12 @@ import login from "../../support/login"
 describe('Login', function () {
     // usar fixture para separar dados do teste
     before(function () {
-        cy.fixture('users').then(function (users) {
-            this.valid = users.valid
-            this.emailsInvalid = users.emailsInvalid
-            this.validEmail = users.validEmail
-            this.invalidPassword = users.invalidPassword
-            this.invalidEmail = users.invalidEmail
+        cy.fixture('login').then(function (login) {
+            this.valid = login.valid
+            this.emailsInvalid = login.emailsInvalid
+            this.validEmail = login.validEmail
+            this.invalidPassword = login.invalidPassword
+            this.invalidEmail = login.invalidEmail
 
         })
     })
