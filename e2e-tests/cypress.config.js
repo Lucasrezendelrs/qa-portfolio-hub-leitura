@@ -20,8 +20,19 @@ module.exports = defineConfig({
           } catch (error) {
             throw error
           }
+        },
+        
+        removeBook({ title, author }) {
+          try {
+            const stmt = db.prepare('DELETE FROM Books WHERE title = ? AND author = ?')
+            const result = stmt.run(title, author)
+            return { success: result.changes > 0 }
+          } catch (error) {
+            throw error
+          }
         }
       })
+      
     }
   }
 })
